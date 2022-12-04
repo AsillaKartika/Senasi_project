@@ -71,7 +71,7 @@ if authentication_status:
     st.subheader('Hasil Sentimen Inflasi dari komentar twitter')
     # Preformatted text
     st.write("Analisis sentimen adalah bidang penelitian yang menganalisis opini, perasaan, evaluasi, penilaian, sikap dan perasaan tentang seseorang, produk, organisasi, orang, masalah, peristiwa atau topik. Sentiment analysis biasa digunakan untuk melihat pendapat atau kecenderungan opini terhadap sebuah masalah atau objek oleh seseorang menuju ke opini positif atau negatif.")
-    st.write('Dibawah ini merupakan tabel dari hasil sentimen analisis komentar twitter yang berkaitan dengan inflasi.')
+    st.write('Dibawah ini merupakan tabel dari hasil sentimen analisis komentar twitter yang berkaitan dengan inflasi:')
     st.bar_chart(data_show.T) 
 
 
