@@ -9,7 +9,7 @@ from yaml import SafeLoader
 
 names = ["User", "Testing", "Kartika"]
 usernames = ["user", "testing", "kartika"]
-passwords = ['123','456', '1408']
+passwords = ['123','456', '140']
 # load hashed passwords
 
 credentials = {
