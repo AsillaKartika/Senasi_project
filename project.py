@@ -7,9 +7,9 @@ import yaml
 from yaml import SafeLoader
 # --- USER AUTHENTICATION ---
 
-names = ["Peter Parker", "Rebecca Miller"]
-usernames = ["pparker", "rmiller"]
-passwords = ['123','456']
+names = ["User", "Testing", "Kartika"]
+usernames = ["user", "testing", "kartika"]
+passwords = ['123','456', '1408']
 # load hashed passwords
 
 credentials = {
