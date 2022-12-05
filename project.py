@@ -72,7 +72,7 @@ if authentication_status:
     # Preformatted text
     st.write("Sentiment analysis biasa digunakan untuk melihat pendapat atau kecenderungan opini terhadap sebuah masalah atau objek oleh seseorang menuju ke opini positif atau negatif.")
     st.write('Sedangkan Inflasi adalah suatu keadaan dimana tingkat harga umum (price level) cenderung naik yang disebabkan oleh peningkatan permintaan yang melebihi penawaran atau kapasitas produksi, sehingga menyebabkan kenaikan harga (demand-pull inflation). Inflasi dapat terjadi atau dapat juga disebabkan oleh sisi penawaran yaitu kenaikan biaya produksi. Oleh karena itu, kenaikan harga (biaya) dapat meningkatkan inflasi).')
-       st.subheader('Dibawah ini merupakan tabel dari hasil sentimen analisis komentar twitter yang berkaitan dengan inflasi:')
+    st.subheader('Dibawah ini merupakan tabel dari hasil sentimen analisis komentar twitter yang berkaitan dengan inflasi:')
     st.bar_chart(data_show.T) 
 
 
