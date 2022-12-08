@@ -19,8 +19,8 @@ credentials = {
                 "password":"140"
                 },
             "tturner":{
-                "name":"PIC",
-                "password":"121"
+                "name":"user",
+                "password":"123"
                 }            
             }
  }
