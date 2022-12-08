@@ -14,13 +14,13 @@ passwords = ['123','456', '140']
 
 credentials = {
         "usernames":{
-            "jsmith92":{
-                "name":"john smith",
-                "password":"$2b$12$TSuKwWML0EpbohBQgHx4p8E5q"
+            "kartika":{
+                "name":"Kartika",
+                "password":"140"
                 },
             "tturner":{
-                "name":"timmy turner",
-                "password":"$2b$12$asdaUduuibuEIyBUBHASD896a"
+                "name":"PIC",
+                "password":"121"
                 }            
             }
  }
@@ -52,12 +52,12 @@ if authentication_status == None:
 if authentication_status:
 
     # load the model from disk
-    loaded_model = pickle.load(open('tweets_all_data_clean_model.sav', 'rb'))
+    loaded_model = pickle.load(open('tweets_data_labeled_model.sav', 'rb'))
     loaded_vec= pickle.load(open('vec_model.sav', 'rb'))
 
 
     # membaca data berlabel hasil lexicon dan naive bayes
-    data = pd.read_csv('tweets_all_data_clean.csv')
+    data = pd.read_csv('tweets_data_labeled.csv')
 
     # menampilkan jumlah nilai data label
     neg = data['label'].value_counts()[-1]
